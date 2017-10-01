@@ -27,7 +27,7 @@ module.exports = function rotaryEncoder({
     if (waveform.length < 2) {
       waveformTimeout = setTimeout(() => {
         waveform = '';
-      }, 8);
+      }, 50);//old 8
       return;
     }
 
